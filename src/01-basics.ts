@@ -63,4 +63,12 @@ interface ColleagueHistory {
   };
   
   console.log(colleagues.current[0]);
+  const colleague1: ColleagueV2 = {
+    name: "Ralph Graham",
+    department: "Engineering",
+    contact: {
+      email: "rgraham@company.com",
+      extension: 121,
+    },
+  };
   

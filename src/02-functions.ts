@@ -34,3 +34,6 @@ function highestExtension(cs: Colleague[]): Colleague {
   
   console.log(findFriends(friends, (friend) => friend.name.startsWith('Pa')));
 console.log(findFriends(friends, (friend) => friend.age < 35));
+console.log(addInterest(friends[0], 'Politics'))
+
+
