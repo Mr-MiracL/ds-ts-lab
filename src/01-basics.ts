@@ -1,5 +1,17 @@
 // (Optional) Change the names below to your friends.
 
+interface ColleagueHistory {
+    current: Colleague[],
+    former: Colleague[]
+  }
+  
+
+interface Friend {
+    name: string;
+    phone: string;
+    age: number
+}
+
 const friend1 = {
     name: "Paul Fleming",
     phone: "087-12345",
@@ -14,6 +26,10 @@ const friend1 = {
   
   const friends = [friend1, friend2];
   console.log(friends[1]);
+  export const colleagues : ColleagueHistory = {
+    current: [colleague1, colleague2, colleague3],
+    former: [],
+  };
   
   //   -------------------
   const colleague1 = {
